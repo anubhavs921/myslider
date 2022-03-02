@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.slider-container {
+    width: 100%;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.arrow {
+    position: absolute;
+    top: 45%;
+    padding: 11px 20px;
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.caption {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
